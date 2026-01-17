@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaifuPixel</title>
+    <style>* {margin:0;padding:0;box-sizing:border-box;}
+:root {--bg:#000;--text:#f0f0f0;--text-light:#aaa;--accent:#e1306c;}
+body {background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+header {padding:14px 16px;border-bottom:1px solid #222;display:flex;justify-content:space-between;align-items:center;background:var(--bg);position:sticky;top:0;z-index:100;}
+header h1 {font-size:1.5rem;font-weight:700;}
+.photo-grid {display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:4px;padding:4px;background:#000;}
+@media (max-width:640px) {.photo-grid {grid-template-columns:repeat(3,1fr);gap:2px;padding:2px;}}
+.photo-item {aspect-ratio:4/5;position:relative;overflow:hidden;background:#111;border-radius:8px;cursor:pointer;}
+.photo-item img {width:100%;height:100%;object-fit:cover;object-position:center;display:block;}
+.photo-item:hover img {transform:scale(1.06);transition:transform 0.25s ease;}
+footer {text-align:center;padding:40px 20px;color:#555;font-size:0.85rem;border-top:1px solid #222;margin-top:40px;}
+.photo-page {max-width:935px;margin:0 auto;padding:20px 16px;}
+.photo-page img {width:100%;max-height:80vh;object-fit:contain;background:#111;border-radius:12px;margin-bottom:16px;}
+.photo-page .caption {font-size:1rem;margin:12px 0;}
+.photo-page .meta {color:var(--text-light);font-size:0.9rem;margin:8px 0;}
+</style>
+</head>
+<body>
+<header>
+    <h1>WaifuPixel</h1>
+</header>
+<div class="photo-grid">
+    <a href="photos/2026-01-16t120000-0300-animefans-animefans-animestyle-anime.html" class="photo-item">
+        <img src="images/15eb7689-e65e-44e3-8254-698ba2573766.png" alt="">
+    </a>
+    <a href="photos/2026-01-16t120000-0300.html" class="photo-item">
+        <img src="images/1766515216.png" alt="">
+    </a>
+    <a href="photos/2026-01-16t120000-0300.html" class="photo-item">
+        <img src="images/1766515634.png" alt="">
+    </a>
+    <a href="photos/2026-01-16t120000-0300.html" class="photo-item">
+        <img src="images/1766515805.png" alt="">
+    </a>
+    <a href="photos/2026-01-16t120000-0300-follow-my.html" class="photo-item">
+        <img src="images/content (1).jpg" alt="">
+    </a>
+    <a href="photos/2026-01-16t120000-0300-folloow-my.html" class="photo-item">
+        <img src="images/content (2).jpg" alt="">
+    </a>
+</div>
+<footer>Feito com StaticGram</footer>
+</body></html>
